@@ -1,0 +1,27 @@
+.home{
+    max-width: 1200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.home_banner{
+    width: 100%;
+    height: 400px;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom: -50px;
+}
+.home_row1,.home_row2,.home_row3,.home_row4,.home_row5,.home_row6,.home_row7,.home_row8,.home_row9{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media(max-width:768px){
+    .home_row1,.home_row2,.home_row3,.home_row4,.home_row5,.home_row6,.home_row7,.home_row8,.home_row9{
+        display: block;
+        z-index: 1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
